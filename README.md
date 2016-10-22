@@ -22,12 +22,25 @@ In order to setup your github account follow this tutorial:
 6. Then Scroll down untill you see this:  
 ![screenshot](git remote.PNG)
 7. Copy the first line and paste it into your command line. This should clone your file.
+>git remote add origin git@github.com:<username>/trial.git
 8. Copy the second line and paste it as well. Once this is done you should refresh your github and see your new changes.
-9. You are now done!!
+>git push -u origin master
+9. _You are now done!!_
 
 ---
 ## Repository Setup
 
+1. In your command line make sure you are in the directory where you want to create your repository.
+2. Type in `git init` in order to make a new repository.
+You will then need to go to github and create a repository by going to the top right corner and pressing on the + and then clicking on "new repository".
+4. You then name your repository and decide if you want it to be private or public. **Remember: your repository name has to be the same as your directory's name.**
+5. Press on create new repository, then you will see in the top left corner SSH or HTTTPS; choose the SSH option. 
+6. Then Scroll down untill you see this:  
+![screenshot](git remote.PNG)
+7. Copy the first line: `git remote add origin git@github.com:<username>/trial.git` and paste it into your command line. This should clone your file.
+8. Add your files to the staging area by typing in `git add --all`. This will add all your files including the deleted ones.
+9. You will then need to commit your files by typing in `git commit -m "message name"`. Make sure that your message is appropriate; it should tell you what changes you did and be in the present tense. _EX: "fix screenshot"_
+8. Copy the second line: `git push -u origin master` and paste it as well. Once this is done you should refresh your github and see your new changes.
 
 
 ---
