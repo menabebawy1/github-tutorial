@@ -21,7 +21,9 @@ In order to setup your github account follow this tutorial:
 5. Press on create new repository, then you will see in the top left corner SSH or HTTTPS; choose the SSH option. 
 6. Then Scroll down untill you see this:  
 ![screenshot](git remote.PNG)
-
+7. Copy the first line and paste it into your command line. This should clone your file.
+8. Copy the second line and paste it as well. Once this is done you should refresh your github and see your new changes.
+9. You are now done!!
 
 ---
 ## Repository Setup
