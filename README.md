@@ -19,7 +19,7 @@ In order to setup your github account follow this tutorial:
 4. You then name your repository and decide if you want it to be private or public. **Remember: your repository name has to be the same as your directory's name.**
 5. Press on create new repository, then you will see in the top left corner SSH or HTTTPS; choose the SSH option. 
 6. Then Scroll down untill you see this:  
-![screenshot](git remote.PNG)
+![screenshot](gitremote.PNG)
 7.  
 
 
