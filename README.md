@@ -43,3 +43,80 @@ In order to setup your github account follow this tutorial:
 
 ---
 ## Workflow & Commands
+Here is how your Workflow or cycle on git should look like:
+ 1. Make changes to your files.
+ 2. Add the file to the staging area by using `git add FILENAME` or add all changed and deleated files by using `git add --all`.
+ 3. Type `git status` in order to see if the files are added or not.
+ 4. You will then need to commit your files using `git commit -m "Message name"`.
+ 5. You will finally need to push your files where you will see them on github using `git push`.
+ 6. Type `git status` to see your pushed and saved files.  
+ 
+**_NOTE: `git status` is a very helpful command, using it frequently will help you check your work._**
+
+___
+#### Here are some commands to help you:
+
+
+**git init**                  
+Meaning: Initialize a git repository  
+Task: Initializes a repository in order to save changes.  
+Example: git init  
+
+**rm -rf .git**  
+Meaning: delete the hidden git repository  
+git add file  
+ 
+
+**git add .**  
+Task: Adds only modified files  
+Example: git add .  
+
+**git add --all**  
+Task: Adds all modified and deleted files to the staging area.  
+Example: git add --all  
+
+**git commit -m "message"**  
+Task: Saves the file with a certain message  
+Example: git commit -m “Project version 1”  
+
+**git push**  
+Meaning: Pushes your changes to github  
+git diff  
+
+**git diff**  
+Task: Shows you the difference between the older file and the modified one.  
+Example: git diff 
+
+**git log**  
+Task: Helps you see your past actions and the different versions of the file.  
+Hint: You need to press Q to exit  
+Example: git log 
+
+**git remote -v**  
+Meaning: tells you where you are pushing your files  
+
+**Git status**  
+Task: Tells you the files that have been changed since last edited  
+Example: Git status  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
