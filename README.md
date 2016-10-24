@@ -24,7 +24,6 @@ In order to setup your github account follow this tutorial:
 8. Type in your title and key.
 9. In order to get your key, go to cloud 9 and press on the gear icon in the topright and press on the SSH key. Copy the SSH key which should look like this:
 ![](SSHkey.png)
-
 10. then press on Add SSH Key.
 11. _You are now done!!_
 
