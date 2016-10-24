@@ -22,7 +22,7 @@ In order to setup your github account follow this tutorial:
 6. You will see a menu on the left side of the page, press on SSH and GPG keys.
 7. Then press on New SSH key.
 8. Type in your title and key.
-9. In order to get your key, go to cloud 9 and press on the gear icon in the topright and press on the SSH key. Copy the SSH key which should look like this:
+9. In order to get your key, go to cloud 9 and without opening your IDE, press on the gear icon in the topright and press on the SSH key. Copy the SSH key which should look like this:
 ![](SSHkey.png)
 10. then press on Add SSH Key.
 11. _You are now done!!_
@@ -30,10 +30,10 @@ In order to setup your github account follow this tutorial:
 ---
 ## Repository Setup
 
-1. In your command line make sure you are in the directory where you want to create your repository.
+1. Go to your cloud 9 and create a repository by typing in `mkdir RepositoryNAME`. Then go to that directory by typing in `cd RepositoryNAME`. In your command line, once you make sure you are in the right directory, create your repository.
 2. Type in `git init` in order to make a new repository.
-3. Make the changes you need to your README file and wait untill it is saved.
-4. Add your file to the staging area by typing in `git add FILENAME`. This will add your file to be commited.
+3. Make the changes you need to your README file and wait until it is saved.
+4. Add your file to the staging area by typing in `git add .`. This will add your file to be commited.
 5. You will then need to commit your files by typing in `git commit -m "message name"`. Make sure that your message is appropriate; it should tell you what changes you made and be in the present tense. _EX: "fix screenshot"_
 6. You will then need to go to github and create a repository by going to the top right corner and pressing on the + and then clicking on "new repository". As shown Above:
 ![](theplus.png)
@@ -49,8 +49,8 @@ In order to setup your github account follow this tutorial:
 ---
 ## Workflow & Commands
 Here is how your Workflow or cycle on git should look like:
- 1. Make changes to your files.
- 2. Add the file to the staging area by using `git add FILENAME` or add all changed and deleated files by using `git add --all`.
+ 1. Make changes to your README file.
+ 2. Add the file to the staging area by using `git add .` or add all changed and deleated files by using `git add --all`.
  3. Type `git status` in order to see if the files are added or not.
  4. You will then need to commit your files using `git commit -m "Message name"`.
  5. You will finally need to push your files where you will see them on github using `git push`.
