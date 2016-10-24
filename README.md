@@ -32,9 +32,11 @@ In order to setup your github account follow this tutorial:
 3. Make the changes you need to your README file and wait untill it is saved.
 4. Add your file to the staging area by typing in `git add FILENAME`. This will add your file to be commited.
 5. You will then need to commit your files by typing in `git commit -m "message name"`. Make sure that your message is appropriate; it should tell you what changes you made and be in the present tense. _EX: "fix screenshot"_
-6. You will then need to go to github and create a repository by going to the top right corner and pressing on the + and then clicking on "new repository".
+6. You will then need to go to github and create a repository by going to the top right corner and pressing on the + and then clicking on "new repository". As shown below:
+![](theplus.png)
 7. You then name your repository and decide if you want it to be private or public. **Remember: your repository name has to be the same as your directory's name.**
-8. Press on create new repository, then you will see in the top left corner SSH or HTTPS; choose the SSH option. 
+8. Press on create new repository, then you will see in the top left corner SSH or HTTPS; choose the SSH option as show in the image below. 
+![](SSH.png)
 9. Then Scroll down untill you see this:  
 ![](orpush.PNG)
 10. Copy the first line: `git remote add origin git@github.com:<username>/trial.git` and paste it into your command line. This should establish the place where you will be pushing your files.
