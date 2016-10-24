@@ -8,7 +8,7 @@ by **Mena Bebawy**
 ##### What is git?
 Git is _version control software_ that helps you save your work. It allows you to save your changes as you progress and you can refer back to any version of your work whenever you want. Unlike Github, git runs locally. Meaning that the work you do on git is only saved on your device. Git also does not need Github to run in order to work.
 ##### What is github?
-Github is where you save your repository. Unlike git, github requires git in order to run. Github also runs in the cloud where you can save all your changes without having to worry about losing them. You can use github to work with others on the same project simultaneously without affcting eachother's work. You can also see your changes in order and return your project to an older version if you decide to do so.
+Github is where you save your repository. **Unlike git, github requires git in order to run.** Github also runs in the cloud where you can save all your changes without having to worry about losing them. You can use github to work with others on the same project simultaneously without affcting eachother's work. You can also see your changes in order and return your project to an older version if you decide to do so.
 
 ---
 ## Initial Setup
@@ -18,11 +18,11 @@ In order to setup your github account follow this tutorial:
 2. You will then need to press the signup button in the top right corner.
 3. You will then enter your username, e-mail, password and then confirm password. Then press create account.
 4. Github will then send you an e-mail; verify it in order to confirm the sign-up.
-5. Now that you are signed up, you will need to create an SSH key. Go to the topleft corner and press on the down arrow next to your logo, then press setting.
+5. Now that you are signed up, you will need to create an **SSH key**. Go to the topleft corner and press on the down arrow next to your logo, then press setting.
 6. You will see a menu on the left side of the page, press on SSH and GPG keys.
 7. Then press on New SSH key.
 8. Type in your title and key.
-9. In order to get your key, go to cloud 9 and without opening your IDE, press on the gear icon in the topright and press on the SSH key. Copy the SSH key which should look like this:
+9. In order to get your key, go to cloud 9 and _without opening your IDE_, press on the gear icon in the topright and press on the SSH key. Copy the SSH key which should look something like this:
 ![](SSHkey.png)
 10. then press on Add SSH Key.
 11. _You are now done!!_
@@ -30,15 +30,15 @@ In order to setup your github account follow this tutorial:
 ---
 ## Repository Setup
 
-1. Go to your cloud 9 and create a repository by typing in `mkdir RepositoryNAME`. Then go to that directory by typing in `cd RepositoryNAME`. In your command line, once you make sure you are in the right directory, create your repository.
+1. Go to your cloud 9 and create a repository by typing in `mkdir RepositoryNAME`. Then go to that directory by typing in `cd RepositoryNAME`. In your command line, once you **make sure you are in the right directory**, create your repository.
 2. Type in `git init` in order to make a new repository.
 3. Make the changes you need to your README file and wait until it is saved.
 4. Add your file to the staging area by typing in `git add .`. This will add your file to be commited.
-5. You will then need to commit your files by typing in `git commit -m "message name"`. Make sure that your message is appropriate; it should tell you what changes you made and be in the present tense. _EX: "fix screenshot"_
+5. You will then need to commit your files by typing in `git commit -m "message name"`. _Make sure that your message is appropriate; it should tell you what changes you made and be in the present tense. _EX: "fix screenshot"_
 6. You will then need to go to github and create a repository by going to the top right corner and pressing on the + and then clicking on "new repository". As shown Above:
 ![](theplus.png)
 7. You then name your repository and decide if you want it to be private or public. **Remember: your repository name has to be the same as your directory's name.**
-8. Press on create new repository, then you will see in the top left corner SSH or HTTPS; choose the SSH option as show in the image below. 
+8. Press on create new repository, then you will see in the top left corner SSH or HTTPS; **choose the SSH option** as show in the image below. 
 ![](SSH.png)
 9. Then Scroll down untill you see this:  
 ![](orpush.PNG)
@@ -50,11 +50,11 @@ In order to setup your github account follow this tutorial:
 ## Workflow & Commands
 Here is how your Workflow or cycle on git should look like:
  1. Make changes to your README file.
- 2. Add the file to the staging area by using `git add .` or add all changed and deleated files by using `git add --all`.
- 3. Type `git status` in order to see if the files are added or not.
- 4. You will then need to commit your files using `git commit -m "Message name"`.
- 5. You will finally need to push your files where you will see them on github using `git push`.
- 6. Type `git status` to see your pushed and saved files.  
+ 2. _Add the file to the staging area_ by using `git add .` or _add all changed and deleated files_ by using `git add --all`.
+ 3. Type `git status` in order to _see if the files are added or not_.
+ 4. You will then need to _commit your files_ using `git commit -m "Message name"`.
+ 5. You will finally need to _push your files_ where you will see them on github using `git push`.
+ 6. Type `git status` to _see your pushed and saved files_.  
  
 **_NOTE: `git status` is a very helpful command, using it frequently will help you check your work._**
 
