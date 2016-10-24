@@ -21,8 +21,11 @@ In order to setup your github account follow this tutorial:
 5. Now that you are signed up, you will need to create an SSH key. Go to the topleft corner and press on the down arrow next to your logo, then press setting.
 6. You will see a menu on the left side of the page, press on SSH and GPG keys.
 7. Then press on New SSH key.
-8. Type in your title and key and then press on Add SSH Key.
-9. _You are now done!!_
+8. Type in your title and key.
+9. In order to get your key, go to cloud 9 and press on the gear icon in the topright and press on the SSH key. Copy the SSH key which should look like this:
+![](SSHkey.png)
+10.then press on Add SSH Key.
+11. _You are now done!!_
 
 ---
 ## Repository Setup
@@ -32,7 +35,7 @@ In order to setup your github account follow this tutorial:
 3. Make the changes you need to your README file and wait untill it is saved.
 4. Add your file to the staging area by typing in `git add FILENAME`. This will add your file to be commited.
 5. You will then need to commit your files by typing in `git commit -m "message name"`. Make sure that your message is appropriate; it should tell you what changes you made and be in the present tense. _EX: "fix screenshot"_
-6. You will then need to go to github and create a repository by going to the top right corner and pressing on the + and then clicking on "new repository". As shown below:
+6. You will then need to go to github and create a repository by going to the top right corner and pressing on the + and then clicking on "new repository". As shown Above:
 ![](theplus.png)
 7. You then name your repository and decide if you want it to be private or public. **Remember: your repository name has to be the same as your directory's name.**
 8. Press on create new repository, then you will see in the top left corner SSH or HTTPS; choose the SSH option as show in the image below. 
