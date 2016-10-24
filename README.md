@@ -104,6 +104,45 @@ Meaning: tells you where you are pushing your files
 Task: Tells you the files that have been changed since last edited  
 Example: Git status  
 
+---
+## Error Handling
+
+As a beginneer, there are many mistakes that you do accidentally on git, but what is more important is that you learn how to git rid of these mistakes.
+
+**If you ever do git init in the wrong directory, here is what you need to do:**
+
+1. Type `rm -rf .git` in order to get rid of the hidden git folder.
+2. Then go to the file where you actually want to create your repository by typing in `cd fileNAME`.
+3. Now type in `git init` and now you have your repository in the right place.
+
+**If you want to completely remove a repository (local & remote) then follow these steps:**
+
+1. Type `rm -rf .git` in order to get rid of the hidden git repository.
+2. Then go to [github](github.com) and go to your repository.
+3. Once you're there, go to the setting icon in the topleft as shown:
+![](setting.png)
+4. Then scroll down all the way to the bottom and click on delete repository.
+5. Type in the repository name in order to confirm the deletion.
+
+**If you ever type in `git commit` without the message name then follow these steps:**
+
+1. If you look at the bottom it will show you some commands.
+2. You will see that exit is one of them.
+3. Next to it you will see the command you need.
+4. press `command x` in order to exit and go back to the code
+
+
+
+
+
+
+
+
+
+
+
+---
+## Collaboration
 
 
 
