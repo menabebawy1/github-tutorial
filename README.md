@@ -36,7 +36,7 @@ In order to setup your github account follow this tutorial:
 7. You then name your repository and decide if you want it to be private or public. **Remember: your repository name has to be the same as your directory's name.**
 8. Press on create new repository, then you will see in the top left corner SSH or HTTPS; choose the SSH option. 
 9. Then Scroll down untill you see this:  
-![screenshot](git remote.PNG)
+![](orpush.PNG)
 10. Copy the first line: `git remote add origin git@github.com:<username>/trial.git` and paste it into your command line. This should establish the place where you will be pushing your files.
 11. Copy the second line: `git push -u origin master` and paste it as well in order to push your changes to github. Once this is done you should refresh your github page and see your new changes.
 
