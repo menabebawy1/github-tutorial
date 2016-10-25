@@ -138,10 +138,10 @@ As a beginneer, there are many mistakes that you do accidentally on git, but wha
 In order to work with others on the same project, you will need to follow these steps:
 
 1. You will first go to the project that you want to work with another person with.
-2. In the topright press on fork in order to make a copy of their repository as shown below:
+2. In the topright press on fork in order to make a copy of their repository as shown:
 ![](fork.png)
 3. you will then need to clone the repository by going to the clone or download button:
-![](clone.PNG)
+![](clone.png)
 4. Then copying the link.
 5. Now go to cloud 9, type `git clone` followed by the link.
 6. Now that you have repository on your local git, make the changes you need to the README file.
@@ -151,7 +151,7 @@ In order to work with others on the same project, you will need to follow these 
 10. Now go to github and submit a pull request by clicking on create pull request.
 11. Wait for your partner to accept your pull request.
 12. Finally type in `git pull` in order to see your edits that your partner accepted.
-13. **You FINISHED!**
+13. **You are now FINISHED!**
 
 
 
