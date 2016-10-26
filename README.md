@@ -8,7 +8,7 @@ by **Mena Bebawy**
 ##### What is git?
 Git is _version control software_ that helps you save your work. It allows you to save your changes as you progress and you can refer back to any version of your work whenever you want. Unlike Github, git runs locally. Meaning that the work you do on git is only saved on your device. Git also does not need Github to run in order to work.
 ##### What is github?
-Github is where you save your repository. **Unlike git, github requires git in order to run.** Github also runs in the cloud where you can save all your changes without having to worry about losing them. You can use github to work with others on the same project simultaneously without affcting eachother's work. You can also see your changes in order and return your project to an older version if you decide to do so.
+Github is where you save your repository. **Unlike git, github requires git in order to run.** Github also runs in the cloud where you can save all your changes without having to worry about losing them. You can use github to work with others on the same project simultaneously without affecting each other's work. You can also see your changes in order and return your project to an older version if you decide to do so.
 
 ---
 ## Initial Setup
@@ -151,7 +151,7 @@ In order to work with others on the same project, you will need to follow these 
 10. Now go to github and submit a pull request by clicking on create pull request.
 11. Wait for your partner to accept your pull request.
 12. Finally type in `git pull` in order to see your edits that your partner accepted.
-13. **You are now FINISHED!**
+13. **You are now FINISHED**
 
 
 
