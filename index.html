@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>GitHub-tutorial by menabebawy1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">GitHub-tutorial</h1>
+      <h2 class="project-tagline">Git Ready for Github</h2>
+      <a href="https://github.com/menabebawy1/github-tutorial" class="btn">View on GitHub</a>
+      <a href="https://github.com/menabebawy1/github-tutorial/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/menabebawy1/github-tutorial/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p>by <strong>Mena Bebawy</strong></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<h5>
+<a id="what-is-git" class="anchor" href="#what-is-git" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What is git?</h5>
+
+<p>Git is <em>version control software</em> that helps you save your work. It allows you to save your changes as you progress and you can refer back to any version of your work whenever you want. Unlike Github, git runs locally. Meaning that the work you do on git is only saved on your device. Git also does not need Github to run in order to work.</p>
+
+<h5>
+<a id="what-is-github" class="anchor" href="#what-is-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What is github?</h5>
+
+<p>Github is where you save your repository. <strong>Unlike git, github requires git in order to run.</strong> Github also runs in the cloud where you can save all your changes without having to worry about losing them. You can use github to work with others on the same project simultaneously without affcting eachother's work. You can also see your changes in order and return your project to an older version if you decide to do so.</p>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<p>In order to setup your github account follow this tutorial:  </p>
+
+<ol>
+<li>The first thing that your going to need to do is sign up for github by going to <a href="github.com">this site</a>.</li>
+<li>You will then need to press the signup button in the top right corner.</li>
+<li>You will then enter your username, e-mail, password and then confirm password. Then press create account.</li>
+<li>Github will then send you an e-mail; verify it in order to confirm the sign-up.</li>
+<li>Now that you are signed up, you will need to create an <strong>SSH key</strong>. Go to the topleft corner and press on the down arrow next to your logo, then press setting.</li>
+<li>You will see a menu on the left side of the page, press on SSH and GPG keys.</li>
+<li>Then press on New SSH key.</li>
+<li>Type in your title and key.</li>
+<li>In order to get your key, go to cloud 9 and <em>without opening your IDE</em>, press on the gear icon in the topright and press on the SSH key. Copy the SSH key which should look something like this:
+<img src="SSHkey.png" alt="">
+</li>
+<li>then press on Add SSH Key.</li>
+<li><em>You are now done!!</em></li>
+</ol>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<ol>
+<li>Go to your cloud 9 and create a repository by typing in <code>mkdir RepositoryNAME</code>. Then go to that directory by typing in <code>cd RepositoryNAME</code>. In your command line, once you <strong>make sure you are in the right directory</strong>, create your repository.</li>
+<li>Type in <code>git init</code> in order to make a new repository.</li>
+<li>Make the changes you need to your README file and wait until it is saved.</li>
+<li>Add your file to the staging area by typing in <code>git add .</code>. This will add your file to be commited.</li>
+<li>You will then need to commit your files by typing in <code>git commit -m "message name"</code>. <em>Make sure that your message is appropriate; it should tell you what changes you made and be in the present tense. _EX: "fix screenshot"</em>
+</li>
+<li>You will then need to go to github and create a repository by going to the top right corner and pressing on the + and then clicking on "new repository". As shown Above:
+<img src="theplus.png" alt="">
+</li>
+<li>You then name your repository and decide if you want it to be private or public. <strong>Remember: your repository name has to be the same as your directory's name.</strong>
+</li>
+<li>Press on create new repository, then you will see in the top left corner SSH or HTTPS; <strong>choose the SSH option</strong> as show in the image below. 
+<img src="SSH.png" alt="">
+</li>
+<li>Then Scroll down untill you see this:<br>
+<img src="orpush.PNG" alt="">
+</li>
+<li>Copy the first line: <code>git remote add origin git@github.com:&lt;username&gt;/trial.git</code> and paste it into your command line. This should establish the place where you will be pushing your files.</li>
+<li>Copy the second line: <code>git push -u origin master</code> and paste it as well in order to push your changes to github. Once this is done you should refresh your github page and see your new changes.</li>
+</ol>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<p>Here is how your Workflow or cycle on git should look like:</p>
+
+<ol>
+<li>Make changes to your README file.</li>
+<li>
+<em>Add the file to the staging area</em> by using <code>git add .</code> or <em>add all changed and deleated files</em> by using <code>git add --all</code>.</li>
+<li>Type <code>git status</code> in order to <em>see if the files are added or not</em>.</li>
+<li>You will then need to <em>commit your files</em> using <code>git commit -m "Message name"</code>.</li>
+<li>You will finally need to <em>push your files</em> where you will see them on github using <code>git push</code>.</li>
+<li>Type <code>git status</code> to <em>see your pushed and saved files</em>.<br>
+</li>
+</ol>
+
+<p><strong><em>NOTE: <code>git status</code> is a very helpful command, using it frequently will help you check your work.</em></strong></p>
+
+<hr>
+
+<h4>
+<a id="here-are-some-commands-to-help-you" class="anchor" href="#here-are-some-commands-to-help-you" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Here are some commands to help you:</h4>
+
+<p><strong>git init</strong><br>
+Meaning: Initialize a git repository<br>
+Task: Initializes a repository in order to save changes.<br>
+Example: git init  </p>
+
+<p><strong>rm -rf .git</strong><br>
+Meaning: delete the hidden git repository<br>
+git add file  </p>
+
+<p><strong>git add .</strong><br>
+Task: Adds only modified files<br>
+Example: git add .  </p>
+
+<p><strong>git add --all</strong><br>
+Task: Adds all modified and deleted files to the staging area.<br>
+Example: git add --all  </p>
+
+<p><strong>git commit -m "message"</strong><br>
+Task: Saves the file with a certain message<br>
+Example: git commit -m “Project version 1”  </p>
+
+<p><strong>git push</strong><br>
+Meaning: Pushes your changes to github<br>
+git diff  </p>
+
+<p><strong>git diff</strong><br>
+Task: Shows you the difference between the older file and the modified one.<br>
+Example: git diff </p>
+
+<p><strong>git log</strong><br>
+Task: Helps you see your past actions and the different versions of the file.<br>
+Hint: You need to press Q to exit<br>
+Example: git log </p>
+
+<p><strong>git remote -v</strong><br>
+Meaning: tells you where you are pushing your files  </p>
+
+<p><strong>Git status</strong><br>
+Task: Tells you the files that have been changed since last edited<br>
+Example: Git status  </p>
+
+<hr>
+
+<h2>
+<a id="error-handling" class="anchor" href="#error-handling" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Error Handling</h2>
+
+<p>As a beginneer, there are many mistakes that you do accidentally on git, but what is more important is that you learn how to git rid of these mistakes.</p>
+
+<p><strong>If you ever do git init in the wrong directory, here is what you need to do:</strong></p>
+
+<ol>
+<li>Type <code>rm -rf .git</code> in order to get rid of the hidden git folder.</li>
+<li>Then go to the file where you actually want to create your repository by typing in <code>cd fileNAME</code>.</li>
+<li>Now type in <code>git init</code> and now you have your repository in the right place.</li>
+</ol>
+
+<p><strong>If you want to completely remove a repository (local &amp; remote) then follow these steps:</strong></p>
+
+<ol>
+<li>Type <code>rm -rf .git</code> in order to get rid of the hidden git repository.</li>
+<li>Then go to <a href="github.com">github</a> and go to your repository.</li>
+<li>Once you're there, go to the setting icon in the topleft as shown:
+<img src="setting.png" alt="">
+</li>
+<li>Then scroll down all the way to the bottom and click on delete repository.</li>
+<li>Type in the repository name in order to confirm the deletion.</li>
+</ol>
+
+<p><strong>If you ever type in <code>git commit</code> without the message name then follow these steps:</strong></p>
+
+<ol>
+<li>If you look at the bottom it will show you some commands.</li>
+<li>You will see that exit is one of them.</li>
+<li>Next to it you will see the command you need.</li>
+<li>press <code>command x</code> in order to exit and go back to the code.</li>
+</ol>
+
+<hr>
+
+<h2>
+<a id="collaboration" class="anchor" href="#collaboration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Collaboration</h2>
+
+<p>In order to work with others on the same project, you will need to follow these steps:</p>
+
+<ol>
+<li>You will first go to the project that you want to work with another person with.</li>
+<li>In the topright press on fork in order to make a copy of their repository as shown:
+<img src="fork.png" alt="">
+</li>
+<li>you will then need to clone the repository by going to the clone or download button:
+<img src="clone.png" alt="">
+</li>
+<li>Then copying the link.</li>
+<li>Now go to cloud 9, type <code>git clone</code> followed by the link.</li>
+<li>Now that you have repository on your local git, make the changes you need to the README file.</li>
+<li>Add the file to the staging area by using <code>git add .</code> </li>
+<li>You will then need to commit your file using <code>git commit -m "Message name"</code>.</li>
+<li>You will then need to push your file using <code>git push</code>.</li>
+<li>Now go to github and submit a pull request by clicking on create pull request.</li>
+<li>Wait for your partner to accept your pull request.</li>
+<li>Finally type in <code>git pull</code> in order to see your edits that your partner accepted.</li>
+<li><strong>You are now FINISHED!</strong></li>
+</ol>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/menabebawy1/github-tutorial">GitHub-tutorial</a> is maintained by <a href="https://github.com/menabebawy1">menabebawy1</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
