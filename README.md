@@ -152,30 +152,3 @@ In order to work with others on the same project, you will need to follow these 
 11. Wait for your partner to accept your pull request.
 12. Finally type in `git pull` in order to see your edits that your partner accepted.
 13. **You are now FINISHED!**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
